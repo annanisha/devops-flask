@@ -3,11 +3,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-  return "<h1><center> anishababu.tech- version 1 </center><h1>"
-  body {
-    background: red;
-    color: yellow;
-  }
+  return "<h1><center> anishababu.tech- version 2 </center><h1>"
+  
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0',port=5000)
